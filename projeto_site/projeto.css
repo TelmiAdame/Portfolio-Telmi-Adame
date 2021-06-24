@@ -1,47 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Source+Sans+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Sacramento&display=swap');
 
 .body{ 
     margin:0px;
-
+    padding:0px;
 }
 
-header{
-    background-color: rgb(247, 175, 157);
+.banner{
+    background: url("midia/banner1.jpg") no-repeat center center;
+    height: 650px;
 }
 
-/* HELP - Tentei de tudo, mas não consegui. Criei class, criei div, tentei reorganizar de diversas maneiras, mas não consigo desvincular o tamanho da caixa com o texto (se é isso mesmo que tá acontecendo né, porque nem sei kkkk - rindo de desespero) */
+.banner-logo{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    font-family:'Sacramento', cursive;
+    font-style: italic;
+    margin: 0%;
+    padding-top: 30px;
+    letter-spacing:2px;
+}
 
-.h1 {
+.banner-content{
+    display: flex;
+    align-items: center;
+    height: 530px;
+}
+
+.banner-image{
+    background-size: cover; /*se ajusta de acordo com a tela*/
+    background: url("midia/banner1.jpg") no-repeat center center;
+}
+
+.banner-text{
+    display: block;
+    margin-left: 150px;
+    max-width: 300px;/*Essa é uma delimitação de área p/ que o texto fique com no máximo 350px de área (e o texto fique quebrado como no modelo)*/
+}
+
+.banner-text h1{
+    display: flex;
     font-family:'Caveat', cursive;
-    color: rgb(58, 48, 66);
-    font-size: 700%; /*mudei para porcentagem em vez de px - ponto p/ mim */
-    text-align: center;
-    margin-bottom: 0%;
-    margin-top: 0%; /* HELP - Como eu tiro a margem e desço o título*/
+    color: #fff;
+    font-size: 200px;
+    margin: 0%;
+    line-height: 190px;
+    text-shadow: 0px 0px 3px #b4b4b4;
 }
-/* HELP - pq quando em uso o "display: flex;" o texto fica para a esquerda - tentei colocar um "border: black;" e tb n aparece*/
 
-.h2 {
+.banner-text h2{
     font-family:'Source Sans Pro', sans-serif;
-    color: rgb(58, 48, 66);
-    font-size: 120%;
-    text-align: center;
-    color: rgb (53, 105, 223);
-    margin-top: 0%;
-    margin-bottom: 1%;
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0%;
+    text-shadow: 0px 0px 2px #b4b4b4;
+}
+.banner-nav{
+    display: flex;
+    justify-content: center;
 }
 .nav{
-    display:block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.767);
 }
 .nav-link {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70%;
-    color: rgb(58, 48, 66);
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
     text-decoration: none;
-    margin: 10px; /* passar para % */
+    margin-left: 20px;
 }
 
 main {
