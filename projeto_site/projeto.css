@@ -10,14 +10,17 @@
 }
 
 .banner{
+    display: block;
     background: url("midia/banner1.jpg") no-repeat center center;
-    height: 650px;
+    background-size: cover; /*se ajusta de acordo com a tela*/
+    width: 100%;
+    height: 100vh;
 }
 
 .banner-logo{
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 150%;
     font-weight: normal;
     color: #fff;
     font-family:'Sacramento', cursive;
@@ -30,60 +33,97 @@
 .banner-content{
     display: flex;
     align-items: center;
-    height: 530px;
-}
-
-.banner-image{
-    background-size: cover; /*se ajusta de acordo com a tela*/
-    background: url("midia/banner1.jpg") no-repeat center center;
 }
 
 .banner-text{
     display: block;
-    margin-left: 150px;
-    max-width: 300px;/*Essa é uma delimitação de área p/ que o texto fique com no máximo 350px de área (e o texto fique quebrado como no modelo)*/
+    margin-left: 20%;
+    max-width: 30%;/*Essa é uma delimitação de área p/ que o texto fique com no máximo 350px de área (e o texto fique quebrado como no modelo)*/
+}
+@media only screen and (max-width:425px) {
+    .banner-text{
+        margin-top: 5%;
+        margin-left: 25%;
+        max-width: 50%;
+    }
 }
 
 .banner-text h1{
     display: flex;
     font-family:'Caveat', cursive;
     color: #fff;
-    font-size: 200px;
+    font-size: 1150%;
     margin: 0%;
-    line-height: 190px;
+    line-height: 90%;
     text-shadow: 0px 0px 3px #b4b4b4;
+}
+
+@media only screen and (max-width:425px) {
+    .banner-text h1 {
+        display: flex;
+        font-size: 600%;
+        line-height: 75%;
+    }
 }
 
 .banner-text h2{
     font-family:'Source Sans Pro', sans-serif;
     color: #fff;
-    font-size: 14px;
+    font-size: 90%;
     text-align: justify;
-    margin: 0%;
+    margin-bottom: 5%;
     text-shadow: 0px 0px 2px #b4b4b4;
+}
+
+@media only screen and (max-width:425px) {
+    .banner-text h2 {
+        display: flex;
+        font-size: 60%;
+    }
 }
 .banner-nav{
     display: flex;
     justify-content: center;
 }
+@media only screen and (max-width:425px) {
+    .banner-nav{
+        margin-top:5vh;
+    }
+}
 .nav{
     display: flex;
     justify-content: center;
-    
-    width: 700px;
     background-color: rgba(255, 255, 255, 0.767);
+    width:70%;
 }
+@media only screen and (max-width:425px) {
+    .nav{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:30%;
+        padding: 2%;
+    }
+}
+
 .nav-link {
     font-family:'Source Sans Pro', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 70%;
     color: #000;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-
+@media only screen and (max-width:425px) {
+    .nav-link {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+}
+/*
 main {
-    margin: 0 auto; /* pq quando eu tiro desconfigura */
+    margin: 0 auto; /* pq quando eu tiro desconfigura 
     width: 100%;
     height: 100%;
 }
@@ -100,10 +140,10 @@ main {
 }
 .item{
     width: 30%;
-    justify-content: space-between; /*Lembrete: deixar um elemento em cada extremo */
+    justify-content: space-between; /*Lembrete: deixar um elemento em cada extremo 
 }
 .redes-sociais{
-     /*Quero aumentar a fonte, centralizar e alterar a fonte  */
+     /*Quero aumentar a fonte, centralizar e alterar a fonte  
 }
 
 .footer{
@@ -120,3 +160,5 @@ main {
     margin: 60%;
     margin-top: 50%;
 }
+
+*/
