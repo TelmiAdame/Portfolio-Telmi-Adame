@@ -1,0 +1,73 @@
+
+body{
+background-color:rgb(244, 248, 250);
+font-family:sans-serif;
+}
+
+.form{
+width: 400px;
+height: 500px;
+margin: auto; /*centraliza na página*/ 
+box-shadow: 1px 1px 5px #ccc;
+margin-top: 100px;
+margin-bottom: 100px;
+background-color: white;
+padding: 30px; /*espaçamento */
+box-shadow: 1px 1px 1px #ccc; /*borda */
+border-radius: 5px;
+}
+
+.box-top{
+text-align: center;
+}
+
+.box-top > img{
+width: 150px;
+border-radius: 100px; /* pq quando eu tiro a borda a imagem fica quadrada se a imagem é redonda? */
+box-shadow: 3px 1px 10px #ccc; /* 1posição 2altura 3esfumaçado */
+}
+
+.box-top > h1{
+color: rgb(53, 105, 223);
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+}
+
+.box-top > h2{
+color: rgb(53, 105, 223);
+size: 16px;  
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+.box-meio{
+margin-bottom: 10px;
+}
+
+.box-meio >label{
+color: rgb(37, 47, 73);
+width: 100%; /* tamanho */
+display: block; /* quebrar para que o label fique em cima e n do lado*/
+}
+ 
+.box-meio > input{
+border-radius: 2px;
+outline: 0; /*tirar bordinha indesejada azul ou cinza*/
+width: 100%;
+height: 15px;
+margin-bottom: 5px;/* Distância entre os botões */
+padding: 5px;
+border: 2px solid rgb(168, 198, 206); /* Edição da borda do input */
+}
+.box-meio > button{
+    width: 100%;
+    height: 40px;
+    margin: 3px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    border: 0;
+    background-image: linear-gradient(to right, rgb(40, 199, 243), rgb(168, 198, 206));
+    background-color: rgb(168, 198, 206);
+
+}

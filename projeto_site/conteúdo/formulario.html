@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body class="body">
+    <form class = "form">
+            <div class = "box-top"> <!--Posso substituior por header?-->
+                <img src="../midia/a850.png" alt="nome img">
+                <h1>Formulário</h1>
+                <h2>Para proseguir preencha o formulário</h2>
+            </div>
+
+            <div class="box-meio">
+                <label>Nome</label>
+                <input type="text" name = "nome"autofocus ="true" placeholder ="Digite seu nome" required>
+            </div>
+
+            <div class="box-meio">
+                <label>Email</label>
+                <input type="email" name = "email" placeholder ="Digite seu e-mail" required>
+            </div>
+
+            <div class="box-meio">
+                <label> Senha</label>
+                <input type="password" name = "senha" placeholder="Digite sua senha" required>
+            </div>
+
+            <div class="box-meio">
+                <label><input type="checkbox" checked>Lembre-me</label>
+            </div>
+
+            <div class="box-meio">
+                <button type="submit">SEGUIR</button>
+            </div>
+    </form>
+</body>
+</html>
