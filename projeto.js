@@ -1,12 +1,5 @@
 
-
-//FUNÇÃO FECHAR A BOLHA QUANDO CLICAR NO 'a' 
-//Identificar o clique do menu
-//Fechar a bolha 
-
-
-//TESTE 01
-//Quando clicar em qualquer elemento a começa a rodar a função que deixa o input checked falso
+// Função para fechar bolha do menu ao clicar nos itens do menu
 function fecharMenu(){
     let menuburguer = document.getElementById('menu-burguer')
     menuburguer.checked = false
@@ -42,5 +35,16 @@ function clickbox(numeroClicado){
 let listabox = document.getElementsByClassName('box')
 
 
+//TENTATIVA 01
+function startModal(){
+    let modal = document.getElementsByClassName('modal')
+    modal.style = 'visibility: visible;'
+}
 
-
+//TENTATIVA 02
+function startModal(){
+    let modal = document.getElementsByClassName('modal')
+    if(modal.style.display === 'none') {
+        modal.style.display = 'block';
+    }
+}
