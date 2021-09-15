@@ -7,43 +7,45 @@
     <title>"Nenhuma a menos"</title>
 
     <!--Elementos básicos para auxiliar nos mecânismos de buscas - SNIPPET SEO-->
-    <meta name="description" content= "Dissertação de mestrado - Nenhuma a menos: ampliando a história da arquitetura moderna em Salvador (1936 - 1969) de Telmi Adame."> <!--até 150 caracteris-->
+    <meta name="description" content= "Telmi Adame Portfolio"> <!--até 150 caracteris-->
     <link rel="canonical" href="http://127.0.0.1:5501/index.html"> <!--Link canônico, evita uma página seja indexada mais de uma vez, em caso de conteúdo duplicado -->
     <meta name="author" content="Telmi Adame"> <!--Nome do autor do site ou empresa-->
-    <meta name= "keywords" content="arquitetura, gênero, Salvador, modernismo, arquitetas"> <!--palavras chaves-->
+    <meta name= "keywords" content="portfolio, Telmi Adame, developer"> <!--palavras chaves-->
     <meta name="robots" content="index, nofollow"> <!--Diz p/ os robos de busca o que fazer, por exemplo indexar a página e não seguir os links que entiverem nela-->
 
     <!--Elementos básicos para auxiliar nos mecânismos de buscas do FACEBOOK, chama OPEN GRAPH Facebook-->
     <meta property="og:url" content="http://127.0.0.1:5501/index.html">
     <meta property="og:type" content="article"> <!--content = "article" ou "website" ou "product" (são os mais usados)-->
     <meta property="og:title" content="Nenhuma a menos: ampliando a história da arquitetura moderna em Salvador (1936 - 1969)">
-    <meta property="og:description" content="Este site tem como finalidade apresentar de forma dinâmica o conteúdo da dissertação de Telmi Adame, apresentada como um dos requisito obtenção do título de Mestre em Arquitetura e Urbanismo">  <!--até 200 caracteris-->
+    <meta property="og:description" content="Este site tem como finalidade apresentar de forma dinâmica a trajetória e trabalhos de Telmi Adame">  <!--até 200 caracteris-->
     <meta property="og:image" content="../projeto_site/midia/primeiraarquiteta.png">
    
     <link rel="stylesheet" href="projeto.css">
+    <script src="projeto.js"></script>
 </head>
 <body class="body">
-    <header class="header-container">
-        <!--LOGO-->
+<!--HEADER-->
+    <header id = "home" class="header-container">
+<!--LOGO-->
             <div class="logo-portfolio">
                 <h3>Portfólio</h3>
             </div>
-        <!--MENU-->
+<!--MENU-->
             <div>
                 <input id="menu-burguer" type="checkbox" />
                 <label for="menu-burguer">
-                  <div class="menu">
-                    <span class="burguer"></span>
+                  <div class="menu"> <!--BOLHA-->
+                    <span class="burguer"></span> <!--LINHAS-->
                   </div>
                 </label>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">TRAJETÓRIA</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">CONTATO</a></li>
+                    <li><a  href="#home" onclick="fecharMenu()">HOME</a></li>
+                    <li><a  href="#trajectory" onclick="fecharMenu()">TRAJECTORY</a></li>
+                    <li><a  href="#work" onclick="fecharMenu()">WORK</a></li>
+                    <li><a  href="#contact" onclick="fecharMenu()">CONTACT</a></li>
                 </ul>
             </div>
-            <!--BANNER-->
+<!--BANNER-->
             <div class="banner">
                 <div class="banner-content">
                         <h1>telmi</h1>
@@ -57,14 +59,112 @@
                 </div>
             </div>
     </header>
-  
-    </div>
+    <main class="container">
 
-
-    <main class="container"></main>
-    <footer class="footer"></footer>
-
-  
+<!--TRAJETÓRIA -->
+        <div id ="trajectory" class = "trajectory">
+            <div>
+                <h2 class="container-title">trajectory</h2>
+            </div>
+            <div class="container-content">
+                <div>
+                    <div class="box" id="box_1">
+                        Olá, me chamo Telmi Adame e em setembro de 2020 comecei a estudar programação para me tornar uma  futura desenvolvedora front-end. Antes e depois disso muitas águas rolaram, para saber um pouco mais da minha trajetória é só seguir o meu aviãozinho de papel...
+                    </div>
+                    <div class="box" id="box_2" onclick="clickbox(2)">
+                        <p id = "ano-box2">2021</p>
+                        <p id = "txt-box2">
+                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+                        </p>
+                    </div>
+                    <div class="box" id="box_3"  onclick="clickbox(3)">
+                        <p id = "ano-box3">2018</p>
+                        <p id = "txt-box3">
+                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+                        </p>
+                    </div>
+                    <div class="box" id="box_4"  onclick="clickbox(4)">
+                        <p id = "ano-box4">2016</p>
+                        <p id = "txt-box4">
+                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+                        </p>
+                    </div>
+                    <div class="box" id="box_5"  onclick="clickbox(5)">
+                        <p id = "ano-box5">1993</p>
+                        <p id = "txt-box5">
+                            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+                        </p>
+                    </div>
+                </div>
+                <div class = "content-line">
+                    <div class="tracado">
+                        <div class="div-linha">
+                            <img src="midia/traçado.png" alt="linha tracejada">
+                        </div>
+                        <div class="div-aviao">
+                            <img src="midia/aviao.png" alt="aviao">
+                        </div>
+                        <div class="div-bolinhas">
+                            <div class = "circle_2" onclick="clickbox(2)"></div>
+                            <div class = "circle_3" onclick="clickbox(3)"></div>
+                            <div class = "circle_4" onclick="clickbox(4)"></div>
+                            <div class = "circle_5" onclick="clickbox(5)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--TRABALHOS -->
+        <section id ="work" class="work">
+<!--MODAL-->    
+            <div class="modal">
+            <button class="bt-modal">x</button>
+            <img class = "modal-content"src="midia/site_picpay.JPG" alt="Imagem site PicPay">
+            </div>
+<!--TÍTULO-->
+            <div class="container-content">            
+            <div class="container-title-div">
+                <h2 class="container-title">work</h2>
+            </div> 
+<!--PROJETO De SITE-->
+                <div class= "content-pc">
+                    <div class = "content-icon-pc">
+                        <img class = "icone-pc" src="midia/pc.png" alt="icone computador">
+                        <div class="circle-pc"></div>
+                    </div>
+                    <img class = "content-box-pc"src="midia/site_picpay.JPG" onclick ="startModal()" alt="Imagem site PicPay">
+                    <img class = "content-box-pc" src="midia/site_picpay.JPG" alt="Imagem site PicPay">
+                </div>
+<!--PROJETO DE MOBILE-->
+                <div class = "content-mobile">
+                    <div class = "content-icon-mobile">
+                        <img class = "icone-mobile" src="midia/mobile.png" alt="icone mobile">
+                        <div class="circle-mobile"></div>
+                    </div>
+                    <div class="content-box-mobile">
+                        <div>
+                            <img src="midia/app_bankTelmi_01.JPG" alt="Imagem site">
+                            <img src="midia/app_bankTelmi_01.JPG" alt="Imagem site">
+                        </div>
+                        <div>
+                            <img src="midia/app_bankTelmi_01.JPG" alt="Imagem site">
+                            <img src="midia/app_bankTelmi_01.JPG" alt="Imagem site">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!--FOOTER-->
+    <footer id ="contact" class="footer">
+        <p>Feito por Telmi Adame</p>
+        <div class="footer-contato">
+            <img src="midia/logo_linkedin.png" alt="Logo Linkedin">
+            <p>Linkedin</p>
+            <img src="midia/logo_github.png" alt="Logo GitHub">
+            <p>GitHub</p>
+        </div>
+    </footer>
        <!-- <div class= "banner-nav">
             <nav class="nav">
                 <a class = "nav-link" href="conteúdo/resumo.html" target="_self">RESUMO</a>
