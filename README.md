@@ -14,7 +14,7 @@ O objetivo é apresentar meus desenvolvimento e estudos como front-end e contar 
  
   ##
  
- **Acesso URL: **
+ 💾 Acesso URL:
 - Abrir arquivo index.html
 - Botão direito do mouse >>> Open whith Live Server
 - Visualizar página com 75% de zoom 
