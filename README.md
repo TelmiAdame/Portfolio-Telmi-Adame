@@ -10,6 +10,16 @@ O objetivo é apresentar meus desenvolvimento e estudos como front-end e contar 
 
 <div align = "center">
 <img src = "https://github.com/TelmiAdame/Portfolio_JavaScript/blob/main/projeto_site/midia/Git-Portfolio-JS.gif" width = "850em">
+ 
+  ##
+ 
+ **Acessos URL**
+- Abrir arquivo index.html
+- Botão direito do mouse >>> Open whith Live Server
+- Visualizar página com 75% de zoom 
+ 
+  ##
+
 <img src = "https://github.com/TelmiAdame/Portfolio_JavaScript/blob/main/projeto_site/midia/img-site.png" width = "850em">
 </div>
 
@@ -17,10 +27,4 @@ O objetivo é apresentar meus desenvolvimento e estudos como front-end e contar 
 ```
 $ git clone https://github.com/TelmiAdame/Portfolio_JavaScript.git
 ```
-
-**Acessos URL**
-- Abrir arquivo index.html
-- Botão direito do mouse >>> Open whith Live Server
-- Visualizar página com 75% de zoom 
-
  ##
