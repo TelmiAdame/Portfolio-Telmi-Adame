@@ -9,17 +9,15 @@ A segunda parte, se trata do mesmo site, mas usando outras ferramentas disponív
 O objetivo é apresentar meus desenvolvimento e estudos como front-end e contar um pouco sobre minha trajetória profissional e pessoal. 
 
 <div align = "center">
-<img src = "https://github.com/TelmiAdame/Portfolio_JavaScript/blob/main/projeto_site/midia/Git-Portfolio-JS.gif" width = "850em">
- 
+ <img src = "https://github.com/TelmiAdame/Portfolio_JavaScript/blob/main/projeto_site/midia/Git-Portfolio-JS.gif" width = "850em">
+</div>
   ##
- 
  **Acessos URL**
 - Abrir arquivo index.html
 - Botão direito do mouse >>> Open whith Live Server
 - Visualizar página com 75% de zoom 
- 
   ##
-
+<div align = "center">
 <img src = "https://github.com/TelmiAdame/Portfolio_JavaScript/blob/main/projeto_site/midia/img-site.png" width = "850em">
 </div>
 
