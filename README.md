@@ -4,7 +4,7 @@ Olá, essa é uma pasta que contém um pouco do meu processo de estudos em JavaS
 O projeto é 100% original, onde estruturei desde o layout, escolha das cores, arquitetura do site e textos.
 
 Esse é um projeto possui duas partes, sendo essa a primeira. Desenvolvi inicialmente o site com JavaScript puro.
-Em seguida restruturei a segunda parte, disponível no repositório: <b>Portfolio</b>. 
+Em seguida restruturei a segunda parte, disponível no repositório: <b>Portfolio_Angular</b>. 
 A segunda parte, se trata do mesmo site, mas usando outras ferramentas disponíveis e com algumas atualizações de layout. 
 O objetivo é apresentar meus desenvolvimento e estudos como front-end e contar um pouco sobre minha trajetória profissional e pessoal. 
 
